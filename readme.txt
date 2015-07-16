@@ -25,6 +25,8 @@ A. If you're currently live, automatically display the live video. (Free Version
 
 B. If you're not currently live, display the previous upload/live event. (<a href="http://www.wordpressyoutubelivestream.com/plugin/youtube-live-stream-auto-embed-wordpress-plugin-youtube-live-wp-plugin/" target="_blank">Pro Version</a>)
 
+Latest YouTube API V3.
+
 == Installation ==
 
 1. Upload the complete `youtube-live-stream-auto-embed` folder to the `/wp-content/plugins/` directory
