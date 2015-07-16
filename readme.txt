@@ -19,11 +19,11 @@ It comes with an options page to let you set the default options for YouTube cha
 
 When NOT streaming live automatically embed a YouTube Channels latest uploaded video/previous live event.
 
-How it works
+How it works (<a href="http://www.wordpressyoutubelivestream.com/" target="_blank">View LIVE Demo</a>)
 
 A. If you're currently live, automatically display the live video. (Free Version)
 
-B. If you're not currently live, display the previous upload/live event. (Pro Version)
+B. If you're not currently live, display the previous upload/live event. (<a href="http://www.wordpressyoutubelivestream.com/plugin/youtube-live-stream-auto-embed-wordpress-plugin-youtube-live-wp-plugin/" target="_blank">Pro Version</a>)
 
 == Installation ==
 
