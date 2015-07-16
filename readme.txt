@@ -15,11 +15,14 @@ Provides a shortcode to automatically embed the latest video or current live str
 == Description ==
 
 This Wordpress plugin provides a shortcode to automatically embed the latest video or current live stream of a specified YouTube channel. [youtube-live]
-It comes with an options page to let you set the default options for YouTube channel.
+It comes with an options page to let you set the default options for YouTube channel. Height, Width, Responsive Player.
 
-How it works…
+When NOT streaming live automatically embed a YouTube Channels latest uploaded video/previous live event.
+
+How it works
 
 A. If you're currently live, automatically display the live video. (Free Version)
+
 B. If you're not currently live, display the previous upload/live event. (Pro Version)
 
 == Installation ==
@@ -30,7 +33,7 @@ B. If you're not currently live, display the previous upload/live event. (Pro Ve
 4. Paste the Youtube Live shortcode in a page or post [youtube-live]
 5. ALL DONE!
 
-== YouTube API Credentials ==
+**YouTube API Credentials**
 
 1. Go to the Google Google Developers Console
 2. Select a project, or create a new one
