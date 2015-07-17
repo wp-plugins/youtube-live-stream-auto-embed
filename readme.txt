@@ -37,9 +37,19 @@ Latest YouTube API V3.
 
 **YouTube API Credentials**
 
-1. Go to the Google Google Developers Console
+1. Go to the Google Developers Console <a href="https://console.developers.google.com/project" target="_blank">www.console.developers.google.com/project</a>
 2. Select a project, or create a new one
 3. In the sidebar on the left, expand APIs & auth. Next, click APIs. In the list of APIs, make sure the status is ON for the YouTube Data API v3 by creating a new Public API access key.
+
+**YouTube Channel ID Code**
+
+1. Find your YouTube Channel ID by visting <a href="https://www.youtube.com/account_advanced" target="_blank">www.youtube.com/account_advanced</a>
+
+**YouTube Channel Name**
+
+1. When you create a new Channel on YouTube you give that channel a name, this is what you enter for the Channel Name in the plugin settings page.
+
+2. To find you Channel Name go to YouTube and click on your Channel, the Channel Name will appear in the url bar in your web browser. 
 
 == Frequently Asked Questions ==
 
