@@ -4,8 +4,8 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Author: Wordpress Youtube Live Stream
 Link: http://www.wordpressyoutubelivestream.com/
 Tags: YouTube, Videoplayer, Auto Embed, YouTube Live stream, Shortcode, live-streaming, API v3
-Requires at least: Wordpress 3.4
-Tested up to: Wordpress 4.2.2
+Requires at least: 3.4
+Tested up to: 4.2.2
 Stable tag: 1.0.0
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
