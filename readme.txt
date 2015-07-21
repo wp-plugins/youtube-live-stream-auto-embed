@@ -35,6 +35,16 @@ Latest YouTube API V3.
 4. Paste the Youtube Live shortcode in a page or post [youtube-live]
 5. ALL DONE!
 
+**Make Any Shortcode Work in a Widget**
+
+To make the shortcode work in a widget you need to add this line to your functions.php file
+
+add_filter('widget_text', 'do_shortcode');
+
+Your Functions file is located here...
+
+http://www.yourwebsite.com/wp-content/themes/YOURTHEME/functions.php
+
 **YouTube API Credentials**
 
 1. Go to the Google Developers Console <a href="https://console.developers.google.com/project" target="_blank">www.console.developers.google.com/project</a>
@@ -45,11 +55,11 @@ Latest YouTube API V3.
 
 1. Find your YouTube Channel ID by visting <a href="https://www.youtube.com/account_advanced" target="_blank">www.youtube.com/account_advanced</a>
 
-**YouTube Channel Name**
+**YouTube Channel User Name**
 
-1. When you create a new Channel on YouTube you give that channel a name, this is what you enter for the Channel Name in the plugin settings page.
+1. To find you YouTube Name go to YouTube and click on your Channel, then click on Videos, the Channel Name will appear in the url bar in your web browser.
 
-2. To find you Channel Name go to YouTube and click on your Channel, the Channel Name will appear in the url bar in your web browser. 
+example: https://www.youtube.com/user/USERNAME/videos
 
 == Frequently Asked Questions ==
 
