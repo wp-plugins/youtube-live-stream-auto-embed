@@ -5,7 +5,7 @@ Author: Wordpress Youtube Live Stream
 Link: http://www.wordpressyoutubelivestream.com/
 Tags: YouTube, Videoplayer, Auto Embed, YouTube Live stream, Shortcode, live-streaming, API v3
 Requires at least: 3.4
-Tested up to: 4.2.2
+Tested up to: 4.2.3
 Stable tag: 1.0.0
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -65,7 +65,7 @@ example: https://www.youtube.com/user/USERNAME/videos
 
 = Is it possible to set the video start playing automatically when NOT streaming live? =
 
-No. YouTube does NOT count autoplay videos as views towards your videos view count. Only LIVE events play automatically.
+Yes, but YouTube does NOT count autoplay videos as views towards your videos view count. Only LIVE events play automatically.
 
 == Screenshots ==
 
