@@ -20,7 +20,7 @@ It comes with an admin settings page to let you set the options for the embeded 
 **Main Features:**
 
 * <strong>Automatically</strong> Embeds a YouTube <strong>Live Stream</strong> from a Channel ID
-* <strong>Automatically</strong> Embeds The Latest Video / Previous Live Show OR Playlist When <strong>NOT</strong> Streamin Live   
+* <strong>Automatically</strong> Embeds Latest Video/Previous Live Show OR Playlist When <strong>NOT</strong> Streaming Live   
 * Options to set YouTube Player Width and Height
 * Left, Center Align or Responsive Player Size
 * Select Player Theme Color, Dark / Light
@@ -33,7 +33,6 @@ It comes with an admin settings page to let you set the options for the embeded 
 <strong>How it works</strong> (<a href="http://www.wordpressyoutubelivestream.com/" target="_blank">View LIVE Demo</a>)
 
 <strong>A.</strong> If you're currently live, automatically display the live video. (Free Version)
-
 <strong>B.</strong> If you're not currently live, display the previous upload/live event or playlist. (<a href="http://www.wordpressyoutubelivestream.com/plugin/youtube-live-stream-auto-embed-wordpress-plugin-youtube-live-wp-plugin/" target="_blank">Pro Version</a>)
 
 **Plugin Support**
