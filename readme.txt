@@ -14,18 +14,37 @@ Provides a shortcode to automatically embed the latest video or current live str
 
 == Description ==
 
-This Wordpress plugin provides a shortcode to automatically embed the latest video or current live stream of a specified YouTube channel. [youtube-live]
-It comes with an options page to let you set the default options for YouTube channel. Height, Width, Responsive Player.
+This Wordpress plugin provides a shortcode to automatically embed ANY live stream from a specified YouTube channel ID. [youtube-live]
+It comes with an admin settings page to let you set the options for the embeded YouTube Player.
 
-When NOT streaming live automatically embed a YouTube Channels latest uploaded video/previous live event.
+**Main Features:**
 
-How it works (<a href="http://www.wordpressyoutubelivestream.com/" target="_blank">View LIVE Demo</a>)
+* <strong>Automatically</strong> Embeds a YouTube <strong>Live Stream</strong> from a Channel ID
+* <strong>Automatically</strong> Embeds The Latest Video / Previous Live Show OR Playlist When <strong>NOT</strong> Streamin Live   
+* Options to set YouTube Player Width and Height
+* Left, Center Align or Responsive Player Size
+* Select Player Theme Color, Dark / Light
+* Change Progress Bar Color, Red / White
+* Hide / Autohide Player Controls
+* Hide Player Title Bar
+* Autoplay / Autoplay Muted
+* Set different options for the Live Player and Latest Video Player
 
-A. If you're currently live, automatically display the live video. (Free Version)
+<strong>How it works</strong> (<a href="http://www.wordpressyoutubelivestream.com/" target="_blank">View LIVE Demo</a>)
 
-B. If you're not currently live, display the previous upload/live event. (<a href="http://www.wordpressyoutubelivestream.com/plugin/youtube-live-stream-auto-embed-wordpress-plugin-youtube-live-wp-plugin/" target="_blank">Pro Version</a>)
+<strong>A.</strong> If you're currently live, automatically display the live video. (Free Version)
 
-Latest YouTube API V3.
+<strong>B.</strong> If you're not currently live, display the previous upload/live event or playlist. (<a href="http://www.wordpressyoutubelivestream.com/plugin/youtube-live-stream-auto-embed-wordpress-plugin-youtube-live-wp-plugin/" target="_blank">Pro Version</a>)
+
+**Plugin Support**
+
+We have made this plugin super simple to install and setup, however if you have any trouble or run into any problems <a href="http://www.wordpressyoutubelivestream.com/contact/" target="_blank">get in touch</a> and we will spend the time to help you get the plugin up and running correctly.
+
+**August 2015 Discount Code**
+
+Use discount code </strong>AUG2015</strong> for 30% Off the PRO Version <a href="http://www.wordpressyoutubelivestream.com/plugin/youtube-live-stream-auto-embed-wordpress-plugin-youtube-live-wp-plugin/" target="_blank">Click Here</a>.
+
+<strong>Works using the latest YouTube API V3</strong>
 
 == Installation ==
 
@@ -47,6 +66,8 @@ http://www.yourwebsite.com/wp-content/themes/YOURTHEME/functions.php
 
 **YouTube API Credentials**
 
+Full detailed instructions with images can be found on the plugins admin settings page, making things nice and simple.
+
 1. Go to the Google Developers Console <a href="https://console.developers.google.com/project" target="_blank">www.console.developers.google.com/project</a>
 2. Select a project, or create a new one
 3. In the sidebar on the left, expand APIs & auth. Next, click APIs. In the list of APIs, make sure the status is ON for the YouTube Data API v3 by creating a new Public API access key.
@@ -55,17 +76,17 @@ http://www.yourwebsite.com/wp-content/themes/YOURTHEME/functions.php
 
 1. Find your YouTube Channel ID by visting <a href="https://www.youtube.com/account_advanced" target="_blank">www.youtube.com/account_advanced</a>
 
-**YouTube Channel User Name**
+**YouTube Playlist ID**
 
-1. To find you YouTube Name go to YouTube and click on your Channel, then click on Videos, the Channel Name will appear in the url bar in your web browser.
+1. To find a YouTube Playlist ID, simply go to any YouTube Playlist and copy the Playlist ID from the URL bar in your web browser.
 
-example: https://www.youtube.com/user/USERNAME/videos
+example: https://www.youtube.com/playlist?list=PLAYLISTID
 
 == Frequently Asked Questions ==
 
 = Is it possible to set the video start playing automatically when NOT streaming live? =
 
-Yes, but YouTube does NOT count autoplay videos as views towards your videos view count. Only LIVE events play automatically.
+Yes, but YouTube does NOT count autoplay videos as views towards your videos view count so it is not recommended. Only LIVE events play automatically and count as views.
 
 == Screenshots ==
 
