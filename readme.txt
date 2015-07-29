@@ -30,7 +30,7 @@ It comes with an admin settings page to let you set the options for the embeded 
 * Autoplay / Autoplay Muted
 * Set different options for the Live Player and Latest Video Player
 
-<strong>How it works</strong> (<a href="http://www.wordpressyoutubelivestream.com/" target="_blank">View LIVE Demo</a>)
+<strong>How it works..</strong> (<a href="http://www.wordpressyoutubelivestream.com/" target="_blank">View LIVE Demo</a>)
 
 <strong>A.</strong> If you're currently live, automatically display the live video. (Free Version)
 <strong>B.</strong> If you're not currently live, display the previous upload/live event or playlist. (<a href="http://www.wordpressyoutubelivestream.com/plugin/youtube-live-stream-auto-embed-wordpress-plugin-youtube-live-wp-plugin/" target="_blank">Pro Version</a>)
