@@ -45,6 +45,8 @@ It comes with an admin settings page to let you set the options for the embeded 
 
 We have made this plugin super simple to install and setup, however if you have any trouble or run into any problems <a href="http://www.wordpressyoutubelivestream.com/contact/" target="_blank">get in touch</a> and we will spend the time to help you get the plugin up and running correctly.
 
+If you are upgrading to the Pro Version be sure to remove the free version before installation an enter your Channel ID instead of Username on the admin settings page. 
+
 **August 2015 Discount Code**
 
 Use discount code </strong>AUG2015</strong> for 30% Off the PRO Version <a href="http://www.wordpressyoutubelivestream.com/plugin/youtube-live-stream-auto-embed-wordpress-plugin-youtube-live-wp-plugin/" target="_blank">Click Here</a>.
