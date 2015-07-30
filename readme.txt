@@ -6,7 +6,7 @@ Link: http://www.wordpressyoutubelivestream.com/
 Tags: YouTube, Videoplayer, Auto Embed, YouTube Live stream, Shortcode, live-streaming, API v3
 Requires at least: 3.4
 Tested up to: 4.2.3
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -21,6 +21,7 @@ It comes with an admin settings page to let you set the options for the embeded 
 
 * <strong>Automatically</strong> Embeds a YouTube <strong>Live Stream</strong> from a Channel ID
 * Options to set YouTube Player Width and Height
+* Left, Center Align or Responsive Player Size
 
 **Pro Version:**
 
