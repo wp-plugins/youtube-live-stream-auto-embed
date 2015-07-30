@@ -20,7 +20,12 @@ It comes with an admin settings page to let you set the options for the embeded 
 **Main Features:**
 
 * <strong>Automatically</strong> Embeds a YouTube <strong>Live Stream</strong> from a Channel ID
-* <strong>Automatically</strong> Embeds Latest Video/Previous Live Show OR Playlist When <strong>NOT</strong> Streaming Live   
+* Options to set YouTube Player Width and Height
+
+**Pro Version:**
+
+* <strong>Automatically</strong> Embeds a YouTube <strong>Live Stream</strong> from a Channel ID
+* <strong>Automatically</strong> Embeds Latest Video/Previous Live Show OR Playlist when <strong>NOT</strong> Streaming Live   
 * Options to set YouTube Player Width and Height
 * Left, Center Align or Responsive Player Size
 * Select Player Theme Color, Dark / Light
@@ -30,14 +35,17 @@ It comes with an admin settings page to let you set the options for the embeded 
 * Autoplay / Autoplay Muted
 * Set different options for the Live Player and Latest Video Player
 
-<strong>How it works</strong> (<a href="http://www.wordpressyoutubelivestream.com/" target="_blank">View LIVE Demo</a>)
+<strong>How it works..</strong> (<a href="http://www.wordpressyoutubelivestream.com/" target="_blank">View LIVE Demo</a>)
 
 <strong>A.</strong> If you're currently live, automatically display the live video. (Free Version)
+
 <strong>B.</strong> If you're not currently live, display the previous upload/live event or playlist. (<a href="http://www.wordpressyoutubelivestream.com/plugin/youtube-live-stream-auto-embed-wordpress-plugin-youtube-live-wp-plugin/" target="_blank">Pro Version</a>)
 
 **Plugin Support**
 
 We have made this plugin super simple to install and setup, however if you have any trouble or run into any problems <a href="http://www.wordpressyoutubelivestream.com/contact/" target="_blank">get in touch</a> and we will spend the time to help you get the plugin up and running correctly.
+
+If you are upgrading to the Pro Version be sure to remove the free version before installation an enter your Channel ID instead of Username on the admin settings page. 
 
 **August 2015 Discount Code**
 
