@@ -4,6 +4,7 @@
 	$yt_api_name = "yt_apikey";
 	$yt_player_width = "yt_width";
 	$yt_player_height = "yt_height";
+	$yt_player_style = "yt_style";
  
 	if(isset($_POST["get"])){ 
 	
@@ -11,7 +12,7 @@
     	$yt_apikey_show = $_POST[$yt_api_name];
     	$yt_width_show = $_POST[$yt_player_width];
     	$yt_height_show = $_POST[$yt_player_height];
-    
+		$yt_style_show = $_POST[$yt_player_style];    
 }
 	else{
 		
@@ -19,10 +20,13 @@
 		$yt_apikey_show = get_option($yt_api_name);
 		$yt_width_show = get_option($yt_player_width);
 		$yt_height_show = get_option($yt_player_height);
+		$yt_style_show = get_option($yt_player_style);
 }
 
 ?>
-		<div id="player"></div>
+		<div class="<?php echo $yt_style_show; ?>">
+			<div id="player"></div>
+        </div>
         
 <script>
 
