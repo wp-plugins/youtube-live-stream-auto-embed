@@ -25,14 +25,14 @@ It comes with an admin settings page to let you set the options for the embeded 
 
 **Pro Version:**
 
+* <strong>NEW FEATURE:</strong> Display text/image/html content with a message that changes when streaming live and when not streaming live using a new shortcode 
+
 * <strong>Automatically</strong> Embeds a YouTube <strong>Live Stream</strong> from a Channel ID
 * <strong>Automatically</strong> Embeds Latest Video/Previous Live Show OR Playlist when <strong>NOT</strong> Streaming Live   
 * Options to set YouTube Player Width and Height
 * Left, Center Align or Responsive Player Size
-* Select Player Theme Color, Dark / Light
 * Change Progress Bar Color, Red / White
-* Hide / Autohide Player Controls
-* Hide Player Title Bar
+* Hide Player Title Bar and Controls
 * Autoplay / Autoplay Muted
 * Set different options for the Live Player and Latest Video Player
 
