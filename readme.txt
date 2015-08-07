@@ -90,11 +90,15 @@ Full detailed instructions with images can be found on the plugins admin setting
 
 example: https://www.youtube.com/playlist?list=PLAYLISTID
 
+**Known Issues**
+
+The embeded player can take a few minutes to dedect a live stream before it auto embeds the live player. 
+
 == Frequently Asked Questions ==
 
-= Is it possible to set the video start playing automatically when NOT streaming live? =
+= Auto embed the live stream, how long does it take to detect that I am streaming live? =
 
-Yes, but YouTube does NOT count autoplay videos as views towards your videos view count so it is not recommended. Only LIVE events play automatically and count as views.
+The embeded player can take a few minutes to dedect a live stream before it auto embeds the live player.
 
 == Screenshots ==
 
