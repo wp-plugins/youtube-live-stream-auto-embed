@@ -3,14 +3,14 @@ Contributors: sykemedia
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7SCTYGSQ3R3ME
 Author: Wordpress Youtube Live Stream
 Link: http://www.wordpressyoutubelivestream.com/
-Tags: YouTube, Videoplayer, Auto Embed, YouTube Live stream, Shortcode, live-streaming, API v3
+Tags: YouTube, Videoplayer, Auto Embed, YouTube Live stream, google hangouts, Shortcode, live-streaming, API v3
 Requires at least: 3.4
 Tested up to: 4.2.4
 Stable tag: 1.0.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Provides a shortcode to automatically embed the latest video or current live stream of a specified YouTube channel.
+Provides a shortcode to automatically embed the latest video or current live stream of a specified YouTube channel including Google Hangouts OnAir.
 
 == Description ==
 
@@ -31,8 +31,10 @@ It comes with an admin settings page to let you set the options for the embeded 
 * <strong>Automatically</strong> Embeds Latest Video/Previous Live Show OR Playlist when <strong>NOT</strong> Streaming Live   
 * Options to set YouTube Player Width and Height
 * Left, Center Align or Responsive Player Size
+* Select Player Theme Color, Dark / Light
 * Change Progress Bar Color, Red / White
-* Hide Player Title Bar and Controls
+* Hide / Autohide Player Controls
+* Hide Player Title Bar
 * Autoplay / Autoplay Muted
 * Set different options for the Live Player and Latest Video Player
 
@@ -47,10 +49,6 @@ It comes with an admin settings page to let you set the options for the embeded 
 We have made this plugin super simple to install and setup, however if you have any trouble or run into any problems <a href="http://www.wordpressyoutubelivestream.com/contact/" target="_blank">get in touch</a> and we will spend the time to help you get the plugin up and running correctly.
 
 If you are upgrading to the Pro Version be sure to remove the free version before installation an enter your Channel ID instead of Username on the admin settings page. 
-
-**August 2015 Discount Code**
-
-Use discount code </strong>AUG2015</strong> for 30% Off the PRO Version <a href="http://www.wordpressyoutubelivestream.com/plugin/youtube-live-stream-auto-embed-wordpress-plugin-youtube-live-wp-plugin/" target="_blank">Click Here</a>.
 
 <strong>Works using the latest YouTube API V3</strong>
 
@@ -92,13 +90,14 @@ example: https://www.youtube.com/playlist?list=PLAYLISTID
 
 **Known Issues**
 
-The embeded player can take a few minutes to dedect a live stream before it auto embeds the live player. 
+The embeded player can take up to 90 seconds to dedect a live stream before it auto embeds the live player. 
 
 == Frequently Asked Questions ==
 
 = Auto embed the live stream, how long does it take to detect that I am streaming live? =
 
-The embeded player can take a few minutes to dedect a live stream before it auto embeds the live player.
+The embeded player can take up to 90 seconds to dedect a live stream before it auto embeds the live player.
+
 
 == Screenshots ==
 
