@@ -3,7 +3,7 @@ Contributors: sykemedia
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7SCTYGSQ3R3ME
 Author: Wordpress Youtube Live Stream
 Link: http://www.wordpressyoutubelivestream.com/
-Tags: YouTube, Videoplayer, Auto Embed, YouTube Live stream, google hangouts, Shortcode, live-streaming, API v3
+Tags: YouTube, Videoplayer, Auto Embed, YouTube Live stream, google hangouts, hangouts, onair, Shortcode, live-streaming, API v3
 Requires at least: 3.4
 Tested up to: 4.2.4
 Stable tag: 1.0.1
