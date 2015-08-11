@@ -15,7 +15,7 @@ div.ytl-form-container form p { margin: 0; }
 div.ytl-form-container form p.note { margin-left: 170px; font-size: 90%; color: #333; }
 div.ytl-form-container form fieldset { margin: 10px 0; padding: 10px; border: #DDD 1px solid; }
 div.ytl-form-container form legend { font-weight: bold; color: #666; }
-div.ytl-form-container form fieldset div { padding: 0.25em 0; }
+div.ytl-form-container form fieldset div { padding: 1px 0; }
 div.ytl-form-container label, 
 div.ytl-form-container span.label { margin-right: 10px; padding-right: 10px; width: 150px; display: block; float: left; text-align: right; position: relative; }
 div.ytl-form-container label.error, 
@@ -63,6 +63,14 @@ input#ytl-help-tm {
   display: none;
   position: relative;
 }
+#ytl-help-tj:checked ~ .ytl-help-hiddentext {
+  display: block;
+  opacity: 1;
+}
+input#ytl-help-tj {
+  display: none;
+  position: relative;
+}
 #ytl-help-tn:checked ~ .ytl-help-hiddentext {
   display: block;
   opacity: 1;
@@ -90,7 +98,6 @@ input#ytl-help-te {
 .ytl-help-arrow{
   color: #666666;
 }
-.ytl-help-accordion img{
-	width: 100%;
-	max-width: 947px;
+.ytl-text{
+	padding: 10px !important;
 }

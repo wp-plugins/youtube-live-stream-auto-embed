@@ -2,6 +2,8 @@
 
 	$yt_channel_name = "yt_channel";
 	$yt_api_name = "yt_apikey";
+	$yt_status1_name = "yt_status1";
+	$yt_status2_name = "yt_status2";
 	$yt_player_width = "yt_width";
 	$yt_player_height = "yt_height";
 	$yt_player_style = "yt_style";
@@ -11,6 +13,10 @@
     	update_option($yt_channel_name, $yt_channel_show);
 		$yt_apikey_show = $_POST[$yt_api_name];
     	update_option($yt_api_name, $yt_apikey_show);
+		$yt_status1_show = $_POST[$yt_status1_name];
+    	update_option($yt_status1_name, $yt_status1_show);
+		$yt_status2_show = $_POST[$yt_status2_name];
+    	update_option($yt_status2_name, $yt_status2_show);
 		$yt_width_show = $_POST[$yt_player_width];
     	update_option($yt_player_width, $yt_width_show);
 		$yt_height_show = $_POST[$yt_player_height];
@@ -23,6 +29,8 @@
 	else{
     	$yt_channel_show = get_option($yt_channel_name);
 		$yt_apikey_show = get_option($yt_api_name);
+		$yt_status1_show = get_option($yt_status1_name);
+		$yt_status2_show = get_option($yt_status2_name);
 		$yt_width_show = get_option($yt_player_width);
 		$yt_height_show = get_option($yt_player_height);
 		$yt_style_show = get_option($yt_player_style);
@@ -30,7 +38,6 @@
 
 ?>
 
-<div id="wrapper">
 	<h2>YouTube Live Stream Auto Embed Free</h2>
 	<div class="ytl-form-container">
 	<form action="#" method="post">
@@ -168,11 +175,6 @@ echo '<img src="' . plugins_url( 'admin/img/1-youtube-playlist-id-step-1.jpg', d
 				<input name="<?php echo $yt_player_style; ?>" id="yt-align-center" value="yt-video-align" type="radio" <?php if($yt_style_show == 'yt-video-align') echo 'checked="checked"'; ?>  /> <label for="yt-align-center">Center &nbsp;</label>
 				<input name="<?php echo $yt_player_style; ?>" id="yt-responsive" value="yt-video-container" type="radio" <?php if($yt_style_show == 'yt-video-container') echo 'checked="checked"'; ?>  /> <label for="yt-responsive">Responsive (full width)</label>
 			</div>
-			<div class="controlset">
-				<span class="label">Player Theme:</span>
-				<input name="theme" id="dark" value="dark" type="radio" checked="checked" disabled /> <label for="dark"><strike>Dark</strike></label>
-				<input name="theme" id="light" value="light" type="radio" disabled /> <label for="light"><strike>Light</strike></label>
-			</div>
             <div class="controlset">
 				<span class="label">Progress Bar:</span>
 				<input name="color" id="red" value="red" type="radio" checked="checked" disabled /> <label for="red"><strike>Red</strike> &nbsp;</label>
@@ -181,11 +183,6 @@ echo '<img src="' . plugins_url( 'admin/img/1-youtube-playlist-id-step-1.jpg', d
 	</fieldset>
 	<fieldset>
 		<legend>Live Stream Player Options (<a href="http://www.wordpressyoutubelivestream.com/" target="_blank">Pro Version</a>)</legend>
-            <div class="controlset">
-				<span class="label">Autohide Controls:</span>
-				<input name="autohide_live" id="yt-autohide-on-live" value="1" type="radio" checked="checked" disabled /> <label for="yt-autohide-on-live"><strike>On</strike></label>
-				<input name="autohide_live" id="yt-autohide-off-live" value="0" type="radio" disabled /> <label for="yt-autohide-off-live"><strike>Off</strike></label>
-			</div>
 			<div class="controlset">
 				<span class="label">Video Title Bar:</span>
 				<input name="title_live" id="yt-title-on-live" value="1" type="radio" checked="checked" disabled /> <label for="yt-title-on-live"><strike>On</strike></label>
@@ -199,21 +196,16 @@ echo '<img src="' . plugins_url( 'admin/img/1-youtube-playlist-id-step-1.jpg', d
             <div class="controlset">
 				<span class="label">Autoplay Live Video:</span>
 				<input name="player_autogo" id="auto-ons" value="1" type="radio" checked="checked" disabled /> <label for="auto-ons"><strike>On</strike></label>
-				<input name="player_autogo" id="auto-offs" value="0" type="radio" disabled /> <label for="auto-offs"><strike>Off</strike></label>
+				<input name="player_autogo" id="auto-offs" value="0" type="radio" disabled /> <label for="auto-offs"><strike>Off</strike></label> (Recommended Autoplay: On)
 			</div>
             <div class="controlset">
 				<span class="label">Autoplay Muted:</span>
 				<input name="player_vol" id="vol-on" value="ytmuteplayerlive" type="radio" checked="checked" disabled /> <label for="vol-on"><strike>On</strike></label>
-				<input name="player_vol" id="vol-off" value="ytmuteplayerliveoff" type="radio" disabled /> <label for="vol-off"><strike>Off</strike></label> (Recommended Autoplay: On)
+				<input name="player_vol" id="vol-off" value="ytmuteplayerliveoff" type="radio" disabled /> <label for="vol-off"><strike>Off</strike></label>
 			</div>
 	</fieldset>
 	<fieldset>
 		<legend>Video Player Options (<a href="http://www.wordpressyoutubelivestream.com/" target="_blank">Pro Version</a>)</legend>
-             <div class="controlset">
-				<span class="label">Autohide Controls:</span>
-				<input name="player_autohide" id="yt-autohide-on" value="1" type="radio" checked="checked" disabled /> <label for="yt-autohide-on"><strike>On</strike></label>
-				<input name="player_autohide" id="yt-autohide-off" value="0" type="radio" disabled /> <label for="yt-autohide-off"><strike>Off</strike></label>
-			</div>
 			<div class="controlset">
 				<span class="label">Video Title Bar:</span>
 				<input name="player_title" id="yt-title-on" value="1" type="radio" checked="checked" disabled /> <label for="yt-title-on"><strike>On</strike></label>
@@ -227,12 +219,12 @@ echo '<img src="' . plugins_url( 'admin/img/1-youtube-playlist-id-step-1.jpg', d
             <div class="controlset">
 				<span class="label">Autoplay Video:</span>
 				<input name="player_autostart" id="auto-on" value="1" type="radio" checked="checked" disabled /> <label for="auto-on"><strike>On</strike></label>
-				<input name="player_autostart" id="auto-off" value="0" type="radio" disabled /> <label for="auto-off"><strike>Off</strike></label>
+				<input name="player_autostart" id="auto-off" value="0" type="radio" disabled /> <label for="auto-off"><strike>Off</strike></label> (Recommended Autoplay: Off)
 			</div>
             <div class="controlset">
 				<span class="label">Autoplay Muted:</span>
 				<input name="player_muted" id="muted-on" value="ytmuteplayer" type="radio" checked="checked" disabled /> <label for="muted-on"><strike>On</strike></label>
-				<input name="player_muted" id="muted-off" value="ytmuteplayeroff" type="radio" disabled /> <label for="muted-off"><strike>Off</strike></label> (Recommended Autoplay: Off)
+				<input name="player_muted" id="muted-off" value="ytmuteplayeroff" type="radio" disabled /> <label for="muted-off"><strike>Off</strike></label>
 			</div> 
 	</fieldset>  	
 	<div class="buttonrow">
@@ -244,15 +236,69 @@ echo '<img src="' . plugins_url( 'admin/img/1-youtube-playlist-id-step-1.jpg', d
                  <p>Copy & Paste this shortcode into a page or post: [youtube-live]</p>
 			</div>
 	</fieldset> 
-     
+    		<br />
+        <fieldset> 
+            <div class="ytl-help-accordion">
+    			<label for="ytl-help-tj" class="accordionitem"><h4>YouTube Live Status <span class="ytl-help-arrow">&raquo;</span></h4></label>
+    			<input type="checkbox" id="ytl-help-tj"/>
+    		<p class="ytl-help-hiddentext">
+     		<br />
+    		&nbsp;
+    		<br />
+   				 The YouTube Live Status shortcode will automatically display the content you enter into the text boxes below. You can use full HTML including Shortcodes for other plugins. The content will automatically switch when streaming live and not live. Embed the content into a page or post using the shortcode: [youtube-live-status]
+    		<br /><br />
+				<strong>Example:</strong> We are currently streaming live! <?php echo '<img src="' . plugins_url( 'assets/images/status-live.gif', dirname(__FILE__) ) . '" > '; ?> 
+			<br />
+				<strong>Example:</strong> Sorry we are not currently streaming live <?php echo '<img src="' . plugins_url( 'assets/images/status-not-live.png', dirname(__FILE__) ) . '" > '; ?> 
+   			<br />
+    		</p>
+			</div>
+    </fieldset>                
+    <fieldset>
+    	<legend>Automatically Display Content (<a href="http://www.wordpressyoutubelivestream.com/" target="_blank">Pro Version</a>)</legend>
+			<div class="ytl-text">
+        		<p>Show the content below when streaming live:</p>
+       		 	<br />
+    			<?php
+					$mytext_var= stripslashes($yt_status1_show); 
+					wp_editor($mytext_var,"$yt_status1_name", array('textarea_rows'=>5, 'editor_class'=>'mytext_class'));
+				?>
+			</div>
+        	<div class="ytl-text">
+        		<p>Show the content below when <u>NOT</u> streaming live:</p>
+        		<br />
+        		<?php
+					$mytext_var= stripslashes($yt_status2_show); 
+					wp_editor($mytext_var,"$yt_status2_name", array('textarea_rows'=>5, 'editor_class'=>'mytext_class'));
+				?>
+			</div>
+    </fieldset>
+    		<div class="buttonrow">
+				<input type="submit" value="Save" class="button" name="submit" />
+			</div>
+    <fieldset>
+		<legend>How to display the Youtube Live Status</legend>
+             <div class="controlset">
+                 <p>Copy & Paste this shortcode into a page or post to display the status: [youtube-live-status]</p>
+			</div>
+	</fieldset> 
     <fieldset>
 		<legend>Known Issues:</legend>
              <div class="controlset">
                  <p>The free version currently uses JavaScript to auto embed the YouTube Live Player, which is great and works perfectly. But it may not show if your website loads other JavaScript files that cause a conflict with the embed code, people also have the ability to disable javascript from running in their web browsers, we have recoded the Pro Version in PHP solving this problem.</p>
 			</div>
+	</fieldset>
+     <fieldset>
+		<legend>Why get the pro version?</legend>
+             <div class="controlset">
+                 <p>Need a featurre added? <a href="http://www.wordpressyoutubelivestream.com/contact/" target="_blank">Just ask</a>. The Pro Version automatically embeds any YouTube Live Stream then switches automatically and embeds the latest video or selected playlist when the Live Stream stops [youtube-live]. You can also display HTML content that will also automatically change when it detects a live stream using a seperate shortcode [youtube-live-status].
+                 <br /><br />
+                 <a href="http://www.wordpressyoutubelivestream.com/" target="_blank">Click Here To Go Pro</a>
+                 
+                 </p>
+			</div>
 	</fieldset> 
-    
-	</form>
+    </form>
 	</div>
+    
 	<p id="copyright">Created by SykeMedia. YouTube Live Stream Auto Embed. <a href="http://www.wordpressyoutubelivestream.com/contact/" target="_blank">Plugin Support</a></p>
-</div>
