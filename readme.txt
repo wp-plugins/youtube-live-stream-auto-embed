@@ -89,13 +89,13 @@ example: https://www.youtube.com/playlist?list=PLAYLISTID
 
 **Known Issues**
 
-The embeded player can take up to 90 seconds to dedect a live stream before it auto embeds the live player. 
+The embeded player can take a few minutes to dedect a live stream before it auto embeds the live player, working on improving this in future updates. 
 
 == Frequently Asked Questions ==
 
 = Auto embed the live stream, how long does it take to detect that I am streaming live? =
 
-The embeded player can take up to 90 seconds to dedect a live stream before it auto embeds the live player.
+The embeded player can take a few minutes to dedect a live stream before it auto embeds the live player, working on improving this in future updates.
 
 
 == Screenshots ==
