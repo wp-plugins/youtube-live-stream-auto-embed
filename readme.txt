@@ -26,9 +26,8 @@ It comes with an admin settings page to let you set the options for the embeded 
 **Pro Version:**
 
 * <strong>NEW FEATURE:</strong> Display text/image/html content with a message that changes when streaming live and when not streaming live using a new shortcode 
-
 * <strong>Automatically</strong> Embeds a YouTube <strong>Live Stream</strong> from a Channel ID
-* <strong>Automatically</strong> Embeds Latest Video/Previous Live Show OR Playlist when <strong>NOT</strong> Streaming Live   
+* <strong>Automatically</strong> Embeds Latest Video OR Playlist when <strong>NOT</strong> Streaming Live   
 * Options to set YouTube Player Width and Height
 * Left, Center Align or Responsive Player Size
 * Select Player Theme Color, Dark / Light
@@ -106,12 +105,24 @@ The embeded player can take up to 90 seconds to dedect a live stream before it a
 
 == Changelog ==
 
+= 1.0.2 =
+* Created August 11, 2015
+
+= 1.0.1 =
+* Created July 29, 2015
+
 = 1.0.0 =
 * Created June 29, 2015
 
 == Upgrade Notice ==
 
-= 1.0 =
+= 1.0.2 =
+Third version release.
+
+= 1.0.2 =
+Second version release.
+
+= 1.0.0 =
 First version release.
 
 == Credits ==
