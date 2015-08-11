@@ -4,7 +4,7 @@ Plugin Name: Youtube Live Stream Auto Embed
 Plugin URI: http://www.wordpressyoutubelivestream.com/plugin/youtube-live-stream-auto-embed-wordpress-plugin/
 Description: Automatically embed live Youtube streams, No need to update your live stream embed code ever again. Works with <em>YouTube Data API v3</em>.
 Author: SM Wordpress Youtube Live Stream
-Version: 1.0.1
+Version: 1.0.2
 Author URI: http://www.wordpressyoutubelivestream.com/
 License: GPLv2 or later
 
