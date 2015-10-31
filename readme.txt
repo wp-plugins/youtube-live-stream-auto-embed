@@ -97,6 +97,17 @@ The embeded player can take a few minutes to dedect a live stream before it auto
 
 The embeded player can take a few minutes to dedect a live stream before it auto embeds the live player, working on improving this in future updates.
 
+= Can't get the plugin to work? =
+
+A common error is usally due to an extra Space at the end of your API or Channel ID.
+
+Also make sure you have filled in ALL the fields on the plugins settings page.
+
+You can also test the live stream with the following details: Sky News Live 24/7
+
+Test Youtube Channel ID: UCoMdktPbSTixAyNGwb-UYkQ
+
+Test API Key: AIzaSyDtfQfxROiBBM1AydfRlOwypunxPwFgAB0 
 
 == Screenshots ==
 
